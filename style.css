@@ -6,6 +6,7 @@ body{
 .top-banner{
     width: 100%;
     height: 100vh;
+    margin: auto;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('assets/images/donation13.jpg');
     background-size: cover;
     background-position: center;
@@ -22,17 +23,81 @@ body{
     font-size: 70px;
     margin-top: 80px;
     margin-bottom: 10px;
+    width: 50%;
+    margin: auto;
 }
 .content p{
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
 }
-.content a{
+a{
     background: #F75909;
     color: white;
     padding: 10px 25px;
     font-size: 20px;
     text-decoration: none;
     border-radius: 7px;
+}
+.donation-link{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.donation-link .text{
+    text-align: center;
+}
+.donation-link h1{
+    font-size: 60px;
+    color: #000000;
+}
+.donation-link p{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 45px;
+    color: grey;
+}
+.donation-link .amount{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+.amount .amnt{
+    box-shadow: 1px 1px 5px gray;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 60px;
+    border-radius: 5px;
+}
+.amount .regular{
+    color: #F75909;
+    border: 2px solid #F75909;
+}
+.add-amount{
+    width: 80%;
+    margin: auto;
+}
+.add-amount input{
+    display: block;
+    width: 30%;
+    margin: auto;
+    border: none;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
+.add-amount hr{
+    margin-bottom: 50px;
+}
+.donate-link a{
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    display: block;
 }

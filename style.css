@@ -31,7 +31,7 @@ body{
     font-weight: 100;
     line-height: 25px;
 }
-a{
+.top-banner a{
     background: #F75909;
     color: white;
     padding: 10px 25px;
@@ -50,6 +50,14 @@ a{
 .donation-link h1{
     font-size: 60px;
     color: #000000;
+}
+.donate-link a{
+    background: #F75909;
+    color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 7px;
 }
 .top-banner p{
     color: white;
@@ -166,7 +174,7 @@ section .news p{
     padding-left: 0px;
 }
 section .article{
-    margin-top: 50px;
+    margin-top: 15px;
 }
 section .article h1{
     font-size: 60px;
@@ -175,4 +183,16 @@ section .article h1{
 }
 section .article small{
     font-size: 20px;
+    margin-bottom: 20px;
+}
+.news a{
+    background: #F75909;
+    color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+section .article-second{
+    margin-top: 100px;
 }

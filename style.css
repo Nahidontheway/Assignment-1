@@ -142,3 +142,37 @@ a{
 .box-one{
     background-color: antiquewhite;
 }
+section .news p{
+    text-align: left;
+}
+.news{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-left: 12%;
+    margin-top: 100px;
+}
+.half-width{
+    width: 42%;
+    padding-right: 50px;
+}
+.news .image{
+    width: 470px;
+    height: 300px;
+}
+.half-width img{
+    width: 470px;
+    height: 400px;
+    padding-left: 0px;
+}
+section .article{
+    margin-top: 50px;
+}
+section .article h1{
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+section .article small{
+    font-size: 20px;
+}

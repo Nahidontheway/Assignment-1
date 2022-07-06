@@ -224,7 +224,6 @@ form .text small{
     margin-top: 100px;
 }
 .contact{
-    border: 1px solid black;
     border-radius: 5px;
 }
 .contact input{
@@ -236,7 +235,7 @@ form .text small{
     padding: 10px 15px;
     color: white;
     outline: none;
-    margin-left: 0em;
+    margin-left: -4em;
 }
 footer{
     background: rgb(20, 20, 24);

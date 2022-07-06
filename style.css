@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    font-family:  'Barlow Condensed', sans-serif;;
+    font-family:  'Barlow Condensed', sans-serif;
+    overflow-x: hidden;
 }
 .top-banner{
     width: 100%;
@@ -204,7 +205,7 @@ section .article small{
     border-radius: 7px;
 }
 section .article-second{
-    margin-top: 100px;
+    margin-top: 45px;
 }
 form{
     width: 60%;

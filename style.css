@@ -235,8 +235,8 @@ form .text small{
     border: none;
     padding: 10px 15px;
     color: white;
-    border-radius: 5px;
-    outline: none
+    outline: none;
+    margin-left: 0em;
 }
 footer{
     background: rgb(20, 20, 24);

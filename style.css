@@ -44,15 +44,18 @@ a{
     margin: auto;
     margin-bottom: 60px;
 }
-.donation-link .text{
+.text{
     text-align: center;
 }
 .donation-link h1{
     font-size: 60px;
     color: #000000;
 }
-.donation-link p{
-    width: 50%;
+.top-banner p{
+    color: white;
+}
+ p{
+    width: 40%;
     margin: auto;
     margin-bottom: 45px;
     color: grey;
@@ -100,4 +103,42 @@ a{
     margin: auto;
     text-align: center;
     display: block;
+}
+.donate-plan h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.container p{
+    text-align: start;
+}
+.donate-plan p{
+    font-size: 19px;
+}
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    letter-spacing: 0.05rem;
+}
+.box{
+    width: 500px;
+    margin: 30px;
+    padding: 20px;
+    height: 250px;
+    border-radius: 5px;
+}
+.container small{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.container h1{
+    width: 80%;
+    margin: 0;
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.box-one{
+    background-color: antiquewhite;
 }
